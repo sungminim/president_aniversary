@@ -1,0 +1,766 @@
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no, maximum-scale=1.0" >
+    <META http-equiv="Pragma" content="no-cache"/>
+    <META http-equiv="Expires" content="0"/>
+    <META http-equiv="Cache-Control" content="no-cache"/>
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/main.js?ver=202022"></script>
+    <script src="js/swiper-9.2/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="js/swiper-9.2/swiper-bundle.css">
+    <script src="js/fullpage/jquery.fullpage.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <link rel="stylesheet" href="js/fullpage/jquery.fullpage.min.css">
+    
+    <link rel="stylesheet" href="css/common.css?ver=5677">
+    <link rel="stylesheet" href="css/main.css?ver=67979">
+
+    <title>대통령실 취임 1주년</title>
+
+    <script>
+        // Refrsh Scroll 
+         window.onload = function(){
+            location.hash = '';
+        };
+
+         window.resize = function(){
+            location.hash = '';
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="#none">
+                <img src="img/logo.png" alt="">
+                <img src="img/logo_color.png" alt="" class="color">
+            </a>
+        </h1>
+
+        <!-- 0508 수정(3) -->
+        <nav>
+            <ul class="gnb" id="gnb">
+                <li data-menuanchor="section1" class="on">
+                    <a href="#section1">취임 1주년</a>
+                </li>
+                <li data-menuanchor="section3">
+                    <a href="#section3">1년간의 발자취</a>
+                </li>
+                
+                <li data-menuanchor="section7">
+                    <a href="#section7">이벤트</a>
+                </li>
+                <li>
+                    <a href="https://www.president.go.kr/" target="_blank" title="새창열림">대통령실 홈페이지</a>
+                </li>
+            </ul>
+        
+            <!-- 모바일 GNB -->
+            <ul class="mb_gnb">
+                <li class="on">
+                    <a href="#area1">취임 1주년</a>
+                </li>
+                <li>
+                    <a href="#area2">1년간의 발자취</a>
+                </li>
+                
+                <li>
+                    <a href="#area3">이벤트</a>
+                </li>
+                <li>
+                    <a href="none">대통령실 홈페이지</a>
+                </li>
+            </ul>
+        
+            
+             <button type="button" class="btn_menu"><span class="hidden">메뉴열기</span></button>
+             <button type="button" class="btn_close"><span class="hidden">메뉴닫기</span></button>
+        </nav>
+         <!-- 0508 수정(3) 끝 --> 
+
+        
+        <button type="button" class="btn_menu"><span class="hidden">메뉴열기</span></button>
+    </header>
+
+
+    <div id="fullpage">
+        <div class="mVisualArea section" id="area1">
+            <div class="bgArea">
+                 <!-- 비디오 -->
+                 <div class="videoArea">
+                    <div class="btnArea">
+                        <button type="button" class="play_btn">
+                            <span class="hidden">재생</span>
+                        </button>
+                        <button type="button" class="pause_btn">
+                            <span class="hidden">정지</span>
+                        </button>
+                    </div>
+
+                    <video src="https://ssproxy.ucloudbiz.olleh.com/v1/AUTH_6b3e26eb-2803-4478-a931-1538d88ba2c7/president001/mVideo.mp4" autoplay loop playsinline data-keepplaying muted class="m_video"  poster="img/visual_bg.jpg"></video>
+
+                    <!-- 230508 수정 (음소거) -->
+                    <button type="button" class="btn_mute mute"><span class="hidden">음소거 해제</span></button>
+                </div>
+                <!-- 이미지 -->
+                <img src="img/visual_bg.jpg" alt="" class="thumImg">
+            </div>
+
+            <div class="visualTxt">
+                <p class="lv1">윤석열</p>
+                <p class="lv2">대통령</p>
+                <p class="lv3">취임 1주년</p>
+            </div>
+
+            
+        </div>
+
+        <div class="mSubVisualArea section">
+            <div class="inner">
+                <div class="sloganImg">
+                    <div class="slogan1">
+                        <img src="img/slogan1.png" alt="">
+                    </div>
+                    <div class="slogan2">
+                        <img src="img/slogan2.png" alt="">
+                    </div>
+                    <div class="slogan3">
+                        <img src="img/slogan3.png" alt="">
+                    </div>
+                    <div class="slogan5">
+                        <img src="img/slogan5.png" alt="">
+                    </div>
+                    <div class="slogan6">
+                        <img src="img/slogan6.png" alt="">
+                    </div>
+                    <div class="slogan7">
+                        <img src="img/slogan7.png" alt="">
+                    </div>
+                    <div class="slogan8">
+                        <img src="img/slogan8.png" alt="">
+                    </div>
+                </div>
+
+                <div class="sloganTxt">
+                    <p class="tit first">
+                        <span><em><img src="img/slogan_tit1.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit2.png" alt=""></em></span>
+                    </p>
+                    <p class="tit middle">
+                        <span><em><img src="img/slogan_tit3.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit4.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit5.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit6.png" alt=""></em></span>
+                    </p>
+                    <p class="tit triple">
+                        <span><em><img src="img/slogan_tit7.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit8.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit9.png" alt=""></em></span>
+                    </p>
+                    <p class="tit last">
+                        <span><em><img src="img/slogan_tit6.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit10.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit100.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit11.png" alt=""></em></span>
+                        <span><em><img src="img/slogan_tit12.png" alt=""></em></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="mFootPrint_intro section" id="area2">
+            <div class="inner">
+                <div class="bgArea">
+                    <div class="footPrint">
+                        <img src="img/footprint1.svg" alt="" class="footPrint_img1">
+                        <img src="img/footprint2.svg" alt="" class="footPrint_img2">
+                        <img src="img/footprint3.svg" alt="" class="footPrint_img3">
+                        <img src="img/footprint4.svg" alt="" class="footPrint_img4">
+                    </div>
+
+                    <div class="lineBg">
+                        <img src="img/lineBg1.png" alt="">
+                    </div>
+                </div>
+                <div class="footPrint_txt">
+                    <p class="txt">
+                        언젠가, 누군가 해야 하는 일이라면 <br>
+                        <b>바로 지금, 윤석열 정부가 하겠습니다.</b>
+                    </p>
+                    <p class="tit">1년간의 발자취</p>
+                    <p class="txt">
+                        대한민국을 자유와 혁신이 넘치는 <br>
+                        더욱 자랑스러운 나라로 만들겠습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- //0508 수정(3) -->
+
+        <div class="mFootPrint section">
+            <div class="inner">
+                <div class="lineBg">
+                    <img src="img/lineBg2_n.png" alt="">
+                </div>
+
+                <div class="diplomacy">
+                    <div class="slide_tit">
+                        <img src="img/dis_tit1.svg?ver=5252" alt="행동하는 한미동맹 구현" class="on">
+                        <img src="img/dis_tit3.svg?ver=5252" alt="미래지향적 한일관계">
+                        <img src="img/dis_tit2.svg" alt="정상 세일즈 외교로 우리 기업 총력 징원">
+                    </div>
+
+                    <div class="sliderWrap">
+                        <div class="swiper cardSlider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/mDisSlide_img1_1.jpg"></div>
+                                <div class="swiper-slide"><img src="img/mDisSlide_img3_3.jpg"></div>
+                                <div class="swiper-slide"><img src="img/mDisSlide_img2.png"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper cardSlider_txt">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <p class="tit">글로벌 ‘가치동맹’으로 <br>재출발</p>
+                                    <p class="txt_m">한-미 정상회담 2022. 5. 21. / 2023. 4. 26.</p>
+
+                                    <ul class="txtList dot">
+                                        <li>한국형 확장억제 ‘워싱턴 선언’ 채택 <span>* 핵협의그룹(NCG) 신설</span></li>
+                                        <li>공급망·첨단기술·우주 동맹 강화 <span>* 양국 NSC 간 차세대 핵심&middot;신흥기술 대화 신설</span></li>
+                                        <li>지역&middot;글로벌 도전과제 공조 심화 합의</li>
+                                        <li>첨단산업 분야 59억 불 투자 유치</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="tit">12년 만에 <br>정상 셔틀외교 복원</p>
+                                    <p class="txt_m">한-일 양자 상호 방문 2023. 3. 16. / 2023. 5. 7.</p>
+
+                                    <ul class="txtList dot">
+                                        <li>강제징용해법 발표와 수출규제 철회·화이트리스트 복원·지소미아(GSOMIA) 정상화</li>
+                                        <li>한일 재계 미래기금 창설</li>
+                                        <li>과거사를 극복하고 미래를 위한 실질 협력 논의 개시</li>
+                                        <li>한일 정상, 히로시마 한국인 원폭 희생자 위령비 참배</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="tit">한-사우디, <br>샤힌 프로젝트 추진</p>
+                                    <p class="txt_m">모하메드 빈 살만 사우디 왕세자 공식 방한 2022. 11. 17.</p>
+
+                                    <ul class="txtList dot">
+                                        <li>제2의 중동붐, 한-사우디 약 40조 원 규모 사업 협력 MOU 체결</li>
+                                        <li>샤힌 프로젝트 '9조 3천억 원' 외국인·국내 석유화학 역대 최대 규모 투자</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btnLeft"><span class="hidden">이전 슬라이드 보기</span></button>
+                        <button type="button" class="btnRight"><span class="hidden">다음 슬라이드 보기</span></button>
+                    </div>
+                    <!-- 230508 수정 끝 -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mSalesMan section">
+            <div class="salesInfo">
+                <div class="sales_tit">
+                    <img src="img/mSales_tit.svg" alt="대한민국 1호 영업사원 입니다." class="pcTit">
+                    <img src="img/mSales_tit_m.svg" alt="대한민국 1호 영업사원 입니다." class="mbTit">
+                </div>
+
+                <div class="salesTabArea">
+                    <ul>
+                        <li>
+                            <button type="button" class="on">원전수주</button>
+                        </li>
+                        <li>
+                            <button type="button">UAE 40조 원 투자 유치</button>
+                        </li>
+                        <li>
+                            <button type="button">첨단산업 육성</button>
+                        </li>
+                        <li>
+                            <button type="button">K-방산</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 0508 수정(3) -->
+                <div class="swiper salesContWrap">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide contTab type1">
+                            <div class="inner">
+                                <div class="txtWrap">
+                                    <div class="titArea">
+                                        <p class="titM">무너진 원전 생태계 복원</p>
+                                    </div>
+    
+                                    <ul class="txtList dot">
+                                        <li>신한울 3·4호기 건설 재개</li>
+                                        <li>이집트 엘다바 원전 건설 프로젝트 수주(3조 원 규모)</li>
+                                        <li>한-폴란드 원전 기업 간 협력 LOI 체결</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="imgArea">
+                                    <img src="img/salesMain_img1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide contTab type3">
+                            <div class="inner">
+                                <div class="txtWrap">
+                                    <div class="titArea">
+                                        <p class="titM">UAE 역사상 <br>최대 규모 투자 유치</p>
+                                    </div>
+    
+                                    <div class="btmTxt">
+                                        <p class="btn_price">
+                                            <em>약&nbsp;</em>
+                                            <span data-value="300">300</span> <!-- 230508 수정 -->
+                                            <em>억&nbsp;</em>
+                                            <em>불</em>
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="c_graphArea">
+                                    <div class="txtGrpah">
+                                        <div class="txtGraph1">
+                                            <p class="lv1"><span><em>약</em> 300억 불</span></p>
+                                        </div>
+                                        <div class="txtGraph2">
+                                            <p class="lv2"><span><em>약</em> 122억 불</span></p>
+                                        </div>
+                                        <div class="txtGraph3">
+                                            <p class="lv2"><span><em>약</em> 53억 불</span></p>
+                                        </div>
+                                        <div class="txtGraph4">
+                                            <p class="lv2"><span><em>약</em> 50억 불</span></p>
+                                        </div>
+                                        <div class="txtGraph5">
+                                            <p class="lv2"><span><em>약</em> 10억 불</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="cirGraph">
+                                        <div class="cirGraph1">
+                                            <span class="tit">한국</span>
+                                            <span class="m_txt">약 300억 불</span>
+                                        </div>
+                                        <div class="cirGraph2">
+                                            <span class="tit">영국</span>
+                                            <span class="m_txt">약 122억 불</span>
+                                        </div>
+                                        <div class="cirGraph3">
+                                            <span class="tit">프랑스</span>
+                                            <span class="m_txt">약 53억 불</span>
+                                        </div>
+                                        <div class="cirGraph4">
+                                            <span class="tit">중국</span>
+                                            <span class="m_txt">약 53억 불</span>
+                                        </div>
+                                        <div class="cirGraph5">
+                                            <span class="tit">러시아</span>
+                                            <span class="m_txt">약 10억 불</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide contTab type4">
+                            <div class="inner">
+                                <div class="txtWrap">
+                                    <div class="titArea">
+                                        <p class="titM">반도체&middot;배터리 등 <br>6대 국가첨단전략산업 육성</p>
+                                    </div>
+    
+                                    <ul class="txtList dot">
+                                        <li>세계 최대 ‘반도체 메가 클러스터’ 구축</li>
+                                        <li>반도체 초강대국 달성 4대 전략 추진</li>
+                                    </ul>
+    
+                                    <div class="btmTxt">
+                                        <p class="btm_tit">2026년까지 6대 첨단산업 부문 총</p>
+                                        <p class="btn_price">
+                                            <span data-value="550">550</span> <!-- 230508 수정 -->
+                                            <em>조 원</em>
+                                            <em class="txt_s">이상</em>
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="c_icoGraph">
+                                    <div class="cirG type1">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60"
+                                                viewBox="0 0 60 60">
+                                                <defs>
+                                                    <clipPath id="a">
+                                                        <rect width="60" height="60" fill="none" />
+                                                    </clipPath>
+                                                </defs>
+                                                <path d="M50.5,50.5H9.5V9.5h41Zm2-43H7.5v45h45Z" fill="#fff" />
+                                                <path d="M43,43H17V17H43Zm2-28H15V45H45Z" fill="#fff" />
+                                                <g clip-path="url(#a)">
+                                                    <path d="M1,9H-1V0H1Z" transform="translate(18.75)" fill="#fff" />
+                                                    <path d="M1,9H-1V0H1Z" transform="translate(41.249)" fill="#fff" />
+                                                    <path d="M1,9H-1V0H1Z" transform="translate(29.999)" fill="#fff" />
+                                                    <path d="M9,1H0V-1H9Z" transform="translate(0 41.25)" fill="#fff" />
+                                                    <path d="M9,1H0V-1H9Z" transform="translate(0 18.75)" fill="#fff" />
+                                                    <path d="M9,1H0V-1H9Z" transform="translate(0 30)" fill="#fff" />
+                                                    <path d="M1,8.438H-1V0H1Z" transform="translate(41.249 51.562)"
+                                                        fill="#fff" />
+                                                    <path d="M1,8.438H-1V0H1Z" transform="translate(18.75 51.562)"
+                                                        fill="#fff" />
+                                                    <path d="M1,8.438H-1V0H1Z" transform="translate(29.999 51.562)"
+                                                        fill="#fff" />
+                                                    <path d="M8.439,1H0V-1H8.439Z" transform="translate(51.561 18.75)"
+                                                        fill="#fff" />
+                                                    <path d="M8.439,1H0V-1H8.439Z" transform="translate(51.561 41.25)"
+                                                        fill="#fff" />
+                                                    <path d="M8.439,1H0V-1H8.439Z" transform="translate(51.561 30)"
+                                                        fill="#fff" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <p class="ico_tit">반도체</p>
+                                        <div class="ico_txt">340조 원</div>
+                                    </div>
+                                    <div class="cirG type2">
+                                        <div class="ico">
+                                            <svg id="route" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="42.728" viewBox="0 0 50 42.728"><defs><clipPath id="a"><rect width="50" height="42.727" transform="translate(0 0)" fill="none"/></clipPath></defs><path d="M2,2H48V30.182H2ZM0,32.182H50V0H0Z" fill="#fff"/><g clip-path="url(#a)"><path d="M49.444,1H0V-1H49.444Z" transform="translate(0.278 23.138)" fill="#fff"/><path d="M1,10.364H-1V0H1Z" transform="translate(25 31.636)" fill="#fff"/><path d="M30,1H0V-1H30Z" transform="translate(10 41.727)" fill="#fff"/></g></svg>
+                                        </div>
+                                        <p class="ico_tit">디스플레이</p>
+                                        <div class="ico_txt">62조 원</div>
+                                    </div>
+                                    <div class="cirG type3">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.25" height="42" viewBox="0 0 28.25 42"><defs><clipPath id="a"><rect width="28.25" height="42" fill="none"/></clipPath></defs><g clip-path="url(#a)"><path d="M-1-1H27.25V34.684H-1ZM25.25,1H1V32.684H25.25Z" transform="translate(1 7.316)" fill="#fff"/><path d="M22.508,7.754h-2V2H7.742V7.754h-2V0H22.508Z" fill="#fff"/></g><path d="M16.013,10.562l.143,8.558,6.108.365-10.3,13.494V24.859h-5.5ZM14.181,20.629l-.011-.649Z" transform="translate(0 2.625)" fill="#fff"/></svg>
+                                        </div>
+    
+                                        <p class="ico_tit">이차전지</p>
+                                        <div class="ico_txt">39조 원</div>
+                                    </div>
+                                    <div class="cirG type4">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="41" viewBox="0 0 62 41">
+                                                <defs>
+                                                <clipPath id="clip-path">
+                                                    <rect id="rec" data-name="사각형 102" width="62" height="41" fill="none"/>
+                                                </clipPath>
+                                                </defs>
+                                                <g id="그룹_323" data-name="그룹 323" transform="translate(-1309 -5208)">
+                                                <line id="선_110" data-name="선 110" x1="17.498" transform="translate(1331.663 5241.479)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+                                                <g id="그룹_269" data-name="그룹 269" transform="translate(1309 5208)">
+                                                    <g id="그룹_268" data-name="그룹 268" clip-path="url(#clip-path)">
+                                                    <path id="패스_462" data-name="패스 462" d="M8.67,33.292H1V16.913H43.891l8.192,2.561L61,22.262V33.292H54.056" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+                                                    <path id="패스_463" data-name="패스 463" d="M15.659,28.641a5.18,5.18,0,1,1-5.159,5.18,5.175,5.175,0,0,1,5.159-5.18m0-2a7.18,7.18,0,1,0,7.159,7.18,7.169,7.169,0,0,0-7.159-7.18" fill="#fff"/>
+                                                    <path id="패스_464" data-name="패스 464" d="M47.023,28.641a5.18,5.18,0,1,1-5.159,5.18,5.175,5.175,0,0,1,5.159-5.18m0-2a7.18,7.18,0,1,0,7.159,7.18,7.169,7.169,0,0,0-7.159-7.18" fill="#fff"/>
+                                                    <path id="패스_465" data-name="패스 465" d="M5.091,17.41,8.693,1h28.22l7.8,15.238.6,1.172" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+                                                    </g>
+                                                </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <p class="ico_tit ">미래차</p>
+                                        <div class="ico_txt">95조 원</div>
+                                    </div>
+                                    <div class="cirG type5">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="45.515" viewBox="0 0 46 45.515"><defs><clipPath id="a"><rect width="46" height="45.515" transform="translate(0 0)" fill="none"/></clipPath></defs><g transform="translate(0 0)"><g clip-path="url(#a)"><path d="M3.377,23.215C8.663,32.1,23.213,33.279,23.213,33.279s5.978-13.235.692-22.123S5,.544,4.069,1.092-1.909,14.327,3.377,23.215Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><path d="M24.694,29.085c4.7-.151,10.894-1.387,15.059-5.55C47.071,16.219,44.6,1.869,44.6,1.869S30.26-.62,22.943,6.7a15.09,15.09,0,0,0-1.269,1.441" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><line x2="15.022" y2="24.974" transform="translate(15.309 20.026)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/></g></g></svg>
+                                        </div>
+                                        <p class="ico_tit tit_s">바이오</p>
+                                        <div class="ico_txt">13조 원</div>
+                                    </div>
+                                    <div class="cirG type6">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="36.847" viewBox="0 0 50 36.847"><defs><clipPath id="a"><rect width="50" height="36.847" transform="translate(0 0)" fill="none"/></clipPath></defs><path d="M9,9.518H41V34.847H9ZM7,36.847H43V7.519H7Z" fill="#fff"/><g clip-path="url(#a)"><line y2="8.932" transform="translate(25)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/></g><line y2="8.932" transform="translate(17 17.717)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><line y2="8.932" transform="translate(33 17.717)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><g clip-path="url(#a)"><path d="M9,29.239H1v-14H9" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><path d="M41,15.127h8v14H41" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/></g></svg>
+                                        </div>
+                                        <p class="ico_tit tit_s">로봇</p>
+                                        <div class="ico_txt">1조 7000억 원</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide contTab type5">
+                            <div class="inner">
+                                <div class="txtWrap">
+                                    <div class="titArea">
+                                        <p class="titM">K-방산, <br class="br_m">역대 최대 수출액 <br>173억 불 달성</p>
+                                    </div>
+    
+                                    <p class="txt_m">폴란드와 124억 불에 달하는 대규모 계약 성사!</p>
+    
+                                    <div class="priceArea">
+                                        <p class="txt_m">연도별 방산 수주액(억 불)</p>
+                                        <ul>
+                                            <li class="lv1">
+                                                <div class="img">
+                                                    <img src="img/ico_price_lv1.svg" alt="">
+                                                </div>
+                                                <div class="txt">
+                                                    2020년
+                                                    <span>30</span>
+                                                </div>
+                                            </li>
+                                            <li class="lv2">
+                                                <div class="img">
+                                                    <img src="img/ico_price_lv2.svg" alt="">
+                                                </div>
+                                                <div class="txt">
+                                                    2021년
+                                                    <span>72.5</span>
+                                                </div>
+                                            </li>
+                                            <li class="lv3">
+                                                <div class="img">
+                                                    <img src="img/ico_price_lv3.svg" alt="">
+                                                </div>
+                                                <div class="txt">
+                                                    2022년
+                                                    <span>173</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                                <div class="diff_img">
+                                    <div class="img1">
+                                        <img src="img/diffusion_1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //0508 수정(3) -->
+            </div>
+        </div>
+
+        <div class="mGlobal section">
+            <div class="spaceBg">
+                <video src="img/bg1.mp4" autoplay loop muted playsinline data-keepplaying></video>
+            </div>
+            <div class="inner">
+                <div class="global_tit">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/global_tit1_n.svg" alt="7대 우주 강국으로 도약">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/global_tit3.svg?ver=5252" alt="튼튼한 국방, 과학기술 강군 육성">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/global_tit4.svg?ver=5251" alt="과학기술·인재 강국 본격화">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/global_tit5_n.svg?ver=5252" alt="글로벌 디지털 모범국가 기반 마련">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sliderWrap">
+                    <div class="cont_bg">
+                        <div class="back1">
+                            <img src="img/mGlobal_img4.png" alt="" class="on">
+                            <img src="img/mGlobal_img1.png" alt="">
+                            <img src="img/mGlobal_img2.png" alt="">
+                            <img src="img/mGlobal_img3.png" alt="">
+                        </div>
+                        <div class="back2">
+                            <img src="img/mGlobal_img3.png" alt="" class="on">
+                            <img src="img/mGlobal_img4.png" alt="">
+                            <img src="img/mGlobal_img1.png" alt="">
+                            <img src="img/mGlobal_img2.png" alt="">
+                        </div>
+                        <div class="back3">
+                            <img src="img/mGlobal_img2.png" alt="" class="on">
+                            <img src="img/mGlobal_img3.png" alt="">
+                            <img src="img/mGlobal_img4.png" alt="">
+                            <img src="img/mGlobal_img1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-container contSwiper">
+                        <div class="swiper-wrapper">
+                            <!-- 230510 수정 -->
+                            <div class="swiper-slide type1">
+                                <img src="img/mGlobal_img1.jpg" alt="">
+                                <img src="img/mGlobal_img1_m.png" alt="" class="img_m">
+                                <div class="txtArea">
+                                    <div class="inner">
+                                        <p class="tit">대한민국 <br class="mbBr">우주경제 시대의 개막!</p>
+                                        <ul class="txtList dot">
+                                            <li>우주항공청 설립 추진</li>
+                                            <li>우주경제 선도 <br class="mbBr">: 누리호 발사 성공 및 다누리 달 궤도 진입 성공</li>
+                                            <li>우주산업 3각 클러스터 발표 <br class="mbBr">: 발사체, 인공위성, 인력양성·연구개발</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide type2">
+                                <img src="img/future_img2_n.png" alt="">
+                                <img src="img/future_img2_m_n.png" alt="" class="img_m">
+                                <div class="txtArea">
+                                    <div class="inner">
+                                        <p class="tit">한국형 3축 체계 강화</p>
+                                        <ul class="txtList dot">
+                                            <li>내전 위기의 수단에서 교민 전원 무사 구출<br class="mbBr">(작전명 ‘프라미스’)</li>
+                                            <li>북핵 위협에 대응한 ‘국방혁신 4.0’ 추진</li>
+                                            <li>장병 사기&middot;복지 증진</li>
+                                        </ul>
+                                    </div>
+                                    <!-- 230510 수정 끝 -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide type3">
+                                <img src="img/future_img3.png" alt="">
+                                <img src="img/future_img3_m.png" alt="" class="img_m">
+                                <div class="txtArea">
+                                    <div class="inner">
+                                        <p class="tit">과학기술이 만드는 <br class="mbBr">자유로운 미래</p>
+                                        <ul class="txtList dot">
+                                            <li>미래형 과학영재학교 신설 및 <br class="mbBr">첨단분야 인재양성 추진</li>
+                                            <li>공공연구기관 블라인드 채용 폐지</li>
+                                            <li>미래 선점을 위한 12대 국가전략기술 선정</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide type4">
+                                <img src="img/mGlobal_img4.png" alt="">
+                                <img src="img/mGlobal_img4_m.png" alt="" class="img_m">
+                                <div class="txtArea">
+                                    <div class="inner">
+                                        <p class="tit">디지털플랫폼정부 실현</p>
+                                        <ul class="txtList dot">
+                                            <li>국민 맞춤형 서비스 구현 <br class="mbBr">(‘국민 Dream 프로젝트’)</li>
+                                            <li>신뢰기반의 개인정보보호</li>
+                                            <li>디지털 자유시민을 위한 뉴욕 구상 발표</li>
+                                            <li>데이터 칸막이를 해소하는 ‘똑똑한 원팀’ 정부</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btnArea">
+                            <button type="button" class="arrL"><span class="hidden">이전 슬라이드 보기</span></button>
+                            <button type="button" class="arrR"><span class="hidden">다음 슬라이드 보기</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mEvent section" id="area3">
+            <div class="inner">
+
+                <div class="mEvent_top">
+                    <div class="event_bnr">
+                        <div class="imgBnr">
+                            <img src="img/mEvent_imge3.png" alt="sukyeol.yoon 인스타그램 캡쳐 : 대한민국에 바라는 점, 3D 영상 관람, 취임 1주년 인증샷 좋아요 51,000개 인증샷과 함께 대한민국에 바라는 점을 남겨주세요! #대통령1주년 #다시대한민국 #대통령님파이팅 댓글 510개 모두보기">
+
+                            <div class="wantArea">
+                                <img src="img/want_img1.png" alt="대한민국에 바라는 점" class="want1">
+                                <img src="img/want_img2.png" alt="취임 1주년 인증샷" class="want2">
+                                <img src="img/want_img3.png" alt="3D 영상 관람" class="want3">
+                            </div>
+                        </div>
+
+                        <div class="txtBnr">
+                            <div class="titArea">
+                                <div class="tit">
+                                    <img src="img/mEvent_tit.svg" alt="#취임 1주년">
+                                </div>
+                                <!-- <img src="img/mEvent_bnr.png" alt="1ST ANNIVERSARY EVENT" class="bnr"> -->
+                            </div>
+
+                            <div class="txtArea">
+                                <p class="txt_m">‘취임 1주년’ 3D 영상 SNS 인증샷 이벤트</p>
+
+                                <p class="txt">
+                                    광화문, 코엑스, 시청앞에서 <span>3D 영상을 관람</span>하고 <br>
+                                    인증샷과 함께 <span>대한민국에 바라는 점</span>을 남겨주세요!
+                                </p>
+
+                                <p class="txt_s">추후 추첨을 통해 소정의 선물을 드립니다! #해시태그 필수!</p>
+                            </div>
+
+                            <div class="hash">
+                                <span>#대통령취임1주년</span>
+                                <span>#다시대한민국 </span>
+                                <span>#대통령파이팅</span>
+                            </div>
+
+                            <div class="btnArea">
+                                <a href="https://www.youtube.com/post/Ugkxyx0wdJNoOr26vIryTgo0AnRQl4RxTxrz" target="_blank" title="새창열림"><span>이벤트 참여하기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mEvent_btm">
+                    <ul>
+                        <li>
+                            <p class="tit">이벤트 기간</p>
+                            <p class="txt">2023. 5. 10. ~ 2023. 6. 8.</p>
+                        </li>
+                        <li>
+                            <p class="tit">참여방법</p>
+                            <ul class="stepArea">
+                                <li>
+                                    <p class="step_tit"><b>STEP</b> 01</p>
+                                    <p class="step_cont">취임 1주년 3D 영상 관람하기</p>
+                                </li>
+                                <li>
+                                    <p class="step_tit"><b>STEP</b> 02</p>
+                                    <p class="step_cont">SNS에 인증샷과 함께 <br>대한민국에 바라는 점 올리기!</p>
+                                </li>
+                                <li>
+                                    <p class="step_tit"><b>STEP</b> 03</p>
+                                    <p class="step_cont">필수 해시태그 3개 꼭 넣기!</p>
+                                </li>
+                                <li>  
+                                    <p class="step_tit"><b>STEP</b> 04</p>
+                                    <p class="step_cont">구글폼 작성하기</p>
+                                </li>
+                                <li>  
+                                    <p class="step_tit"><b>STEP</b> 05</p>
+                                    <p class="step_cont">응모 완료!</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit">당첨자 발표</p>
+                            <p class="txt">2023. 6월 중</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+
+</html>

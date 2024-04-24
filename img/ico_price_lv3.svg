@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157.012" height="83.625" viewBox="0 0 157.012 83.625">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_477" data-name="패스 477" d="M1684.125,5291.813l-10.25,16.125s-33.375,4.25-33.5,3.875-8.625-23-8.625-23.375,31.875-10,33.75-10S1684.125,5291.813,1684.125,5291.813Z" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_646" data-name="사각형 646" width="16" height="53" transform="translate(1757 5304.063)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="패스_481" data-name="패스 481" d="M1662.333,5335.146l-10.083,3.667-4.25,8.333-2,3.417-26.417-18.25s-3.833-13-3.583-13.417,12.167-5.916,15.5-6.666,26.083-.917,26.083-.917l5.25,2.25Z" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_350" data-name="그룹 350" transform="translate(-1615.988 -5278.438)">
+    <path id="패스_476" data-name="패스 476" d="M2.306,4-4.062,15H28V4H2.306M0,0H32V19H-11Z" transform="translate(1681 5291.063)" fill="#222"/>
+    <g id="마스크_그룹_42" data-name="마스크 그룹 42" clip-path="url(#clip-path)">
+      <path id="사각형_645" data-name="사각형 645" d="M4,4V7H40V4H4M0,0H44V11H0Z" transform="translate(1645 5294.063)" fill="#222"/>
+    </g>
+    <path id="패스_478" data-name="패스 478" d="M8.073,4,1.72,13H94V4H8.073M6,0H98V17H-6Z" transform="translate(1659 5306.063)" fill="#222"/>
+    <g id="마스크_그룹_43" data-name="마스크 그룹 43" clip-path="url(#clip-path-2)">
+      <path id="패스_479" data-name="패스 479" d="M4,4V43h7.361l2.567-27.076L9.269,4H4M0,0H12l6,15.354L15,47H0Z" transform="translate(1752 5306.063)" fill="#222"/>
+    </g>
+    <g id="그룹_351" data-name="그룹 351">
+      <path id="타원_48" data-name="타원 48" d="M14,4A10,10,0,1,0,24,14,10.011,10.011,0,0,0,14,4m0-4A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(1647 5334.063)" fill="#222"/>
+      <path id="타원_51" data-name="타원 51" d="M14,4A10,10,0,1,0,24,14,10.011,10.011,0,0,0,14,4m0-4A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(1673 5334.063)" fill="#222"/>
+      <path id="타원_49" data-name="타원 49" d="M6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4M6,0A6,6,0,1,1,0,6,6,6,0,0,1,6,0Z" transform="translate(1655 5342.063)" fill="#222"/>
+      <path id="타원_50" data-name="타원 50" d="M6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4M6,0A6,6,0,1,1,0,6,6,6,0,0,1,6,0Z" transform="translate(1681 5342.063)" fill="#222"/>
+    </g>
+    <g id="그룹_352" data-name="그룹 352" transform="translate(58)">
+      <path id="타원_48-2" data-name="타원 48" d="M14,4A10,10,0,1,0,24,14,10.011,10.011,0,0,0,14,4m0-4A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(1647 5334.063)" fill="#222"/>
+      <path id="타원_51-2" data-name="타원 51" d="M14,4A10,10,0,1,0,24,14,10.011,10.011,0,0,0,14,4m0-4A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(1673 5334.063)" fill="#222"/>
+      <path id="타원_49-2" data-name="타원 49" d="M6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4M6,0A6,6,0,1,1,0,6,6,6,0,0,1,6,0Z" transform="translate(1655 5342.063)" fill="#222"/>
+      <path id="타원_50-2" data-name="타원 50" d="M6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4M6,0A6,6,0,1,1,0,6,6,6,0,0,1,6,0Z" transform="translate(1681 5342.063)" fill="#222"/>
+    </g>
+    <g id="마스크_그룹_44" data-name="마스크 그룹 44" clip-path="url(#clip-path-3)">
+      <path id="패스_480" data-name="패스 480" d="M15.573,4,7.233,7.383,24.605,24H30V4H15.573m-.78-4H34V28H23L0,6Z" transform="translate(1624 5320.063)" fill="#222"/>
+    </g>
+    <path id="사각형_647" data-name="사각형 647" d="M0,0H10V4H0Z" transform="translate(1697 5349.063)" fill="#222"/>
+    <path id="사각형_648" data-name="사각형 648" d="M0,0H10V4H0Z" transform="translate(1691 5299.063)" fill="#222"/>
+    <path id="사각형_649" data-name="사각형 649" d="M0,0H4V5H0Z" transform="translate(1735 5301.063)" fill="#222"/>
+    <path id="사각형_650" data-name="사각형 650" d="M0,0H4V5H0Z" transform="translate(1744 5301.063)" fill="#222"/>
+    <path id="사각형_651" data-name="사각형 651" d="M0,0H4V9H0Z" transform="translate(1723 5310.063)" fill="#222"/>
+    <path id="사각형_652" data-name="사각형 652" d="M0,0H4V7H0Z" transform="translate(1646 5328.063)" fill="#222"/>
+  </g>
+</svg>
